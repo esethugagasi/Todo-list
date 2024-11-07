@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function TodoInput() {
-  return <div>TodoInput</div>;
+  return (
+    <header>
+      <input placeholder="Enter your tasks..."></input>
+      <button>Add</button>
+    </header>
+  );
 }
